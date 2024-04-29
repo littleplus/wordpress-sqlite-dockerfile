@@ -2,7 +2,7 @@
 ## 食用 Eat
 ```
 # 数据将在容器删除后完全、彻底、不可挽回地丢失 (Data will all be LOST after container deleted)
-docker run -it -d --name wp -p 80:80 littleplus/wordpress-alpine:6.4-php8-fpm-sqlite
+docker run -it -d --name wp -p 80:80 littleplus/wordpress:6.4-apache-sqlite
 ```
 
 
